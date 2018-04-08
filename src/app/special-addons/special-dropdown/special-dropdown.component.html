@@ -1,0 +1,12 @@
+<div>
+    <div class="dropdown">
+        <app-special-button [specialButtonOptions]="specialOptions.specialButtonOptions"></app-special-button>
+        <div class="dropdown-content">
+            <a href="#" *ngFor="let specialItem of specialItems" [ngClass]="[specialItem.color, specialItem.font]" (click)="selectItem(specialItem, $event)">
+                <i [ngClass]="specialItem.icon"></i> {{specialItem.text}}
+            </a>
+        </div>
+    </div>
+    <app-special-selection-view [selectedItem]="selectedItem"></app-special-selection-view>
+
+</div>

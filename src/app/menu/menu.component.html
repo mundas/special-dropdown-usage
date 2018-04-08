@@ -1,0 +1,9 @@
+<div class="my-menu">
+    <app-special-dropdown [specialItems]="items" [specialOptions]="options" (selection)="onSelectItem($event)"></app-special-dropdown>
+    <div class="summary" *ngIf="selectedItem">
+        Returned value from special-dropdown component:
+        <em>
+            {{selectedItem | json}}
+        </em>
+    </div>
+</div>

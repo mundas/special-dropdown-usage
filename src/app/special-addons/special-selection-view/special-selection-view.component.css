@@ -1,0 +1,12 @@
+.dropdown-selection {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 200px;
+    padding: 5px;
+    border: green 1px dotted;
+}
+
+.dropdown-selection p span {
+    float: right;
+}

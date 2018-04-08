@@ -1,0 +1,35 @@
+.dropbtn {
+    background-color: #4CAF50;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn.purple {
+    color: purple;
+}
+
+.dropbtn.green {
+    color: green;
+}
+
+.dropbtn.white {
+    color: whitesmoke;
+}
+
+.dropbtn.red {
+    color: red;
+}
+
+.dropbtn.lato-font {
+    font-family: Lato, sans-serif;
+}
+
+.dropbtn.lato-font {
+    font-family: Lato, sans-serif;
+}
+
+.dropbtn:hover {
+    background-color: #3e8e41;
+}

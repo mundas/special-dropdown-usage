@@ -1,0 +1,10 @@
+.my-menu {
+    height: calc(100% - 150px);
+    width: 100%;
+    display: block;
+    vertical-align: top;
+}
+
+.summary {
+    margin-top: 20px;
+}
